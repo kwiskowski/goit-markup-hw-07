@@ -112,7 +112,7 @@ figure {
   background-color: #2196f3;
 }
 
-.footer-media-icon {
+.footer__join__list__item__icon {
   display: flex;
   width: 44px;
   height: 44px;
@@ -126,7 +126,7 @@ figure {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-media-icon:hover {
+.footer__join__list__item__icon:hover {
   fill: #eeeeee;
   background-color: #2196f3;
 }
@@ -367,7 +367,7 @@ figure {
   margin: 0px;
 }
 
-.join {
+.footer__join {
   height: 80px;
   width: 206px;
   border-radius: 0px;
@@ -381,7 +381,19 @@ figure {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  jusify-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer__join__list {
+  list-style-position: inside;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
   align-items: center;
   margin: 0px;
   padding: 0px;
@@ -875,16 +887,22 @@ figure {
   fill: #2196f3;
 }
 
-.footer-icons {
+.footer__join__list__item {
   padding-right: 10px;
   padding-top: 20px;
 }
 
-/* .main-icons {
-  margin-right: 10px;
-} */
+.footer__join__label {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+}
 
-.footer-span {
+.newsletter__label {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
@@ -979,9 +997,15 @@ figure {
   pointer-events: none;
 }
 
-.newsletter-list {
-  padding: 0;
+.newsletter__list {
+  list-style-position: inside;
+  list-style-type: none;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
 }
 
 .newsletter {
@@ -998,12 +1022,21 @@ figure {
   outline: none !important;
 }
 
+.newsletter-email__input {
+  height: 50px;
+  width: 358px;
+  border-radius: 4px;
+  background-color: #2196f300;
+  border: 1px solid #ffffff4d;
+  outline: none !important;
+}
+
 .newsletter-form {
   padding-top: 20px;
   display: flex;
 }
 
-.newsletter-item {
+.newsletter__list__item {
   padding-left: 0px;
   padding-right: 12px;
 }
