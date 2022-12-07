@@ -257,7 +257,8 @@ figure {
   justify-content: center;
   align-items: center;
 }
-.filter-button {
+
+.filter__button {
   height: 38px;
   background-color: #f5f4fa;
   padding-left: 22px;
@@ -423,11 +424,18 @@ figure {
   flex-basis: 33%;
   justify-content: space-between;
 }
-.product-items {
+
+.cards__list {
+  list-style-position: inside;
+  list-style-type: none;
   display: flex;
-}
-.list-item {
-  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+  gap: 30px;
+  flex-basis: 33%;
+  justify-content: space-between;
 }
 
 .contact-list {
@@ -796,6 +804,13 @@ button:hover {
   padding: 0 15px;
 }
 
+.cards--container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
 .section {
   padding-top: 94px;
 }
@@ -816,6 +831,10 @@ button:hover {
   padding-top: 94px;
 }
 
+.cards {
+  padding-top: 94px;
+}
+
 .footer__adress {
   display: block;
   padding-top: 60px;
@@ -825,11 +844,11 @@ figure {
   height: 100%;
 }
 
-.product-offer {
+.cards--wrapper {
   padding-bottom: 94px;
 }
 
-.product-card-wrapper {
+.cards__list__item {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
@@ -837,11 +856,11 @@ figure {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.product-card-wrapper:hover {
+.cards__list__item:hover {
   box-shadow: 1px 4px 6px 0px #00000029;
 }
 
-.overlay {
+.cards__list__item--overlay-description-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -852,12 +871,12 @@ figure {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay-wrapper {
+.cards__list__item--overlay-wrapper {
   position: relative;
   overflow: hidden;
 }
 
-.overlay-wrapper:hover .overlay {
+.cards__list__item--overlay-wrapper:hover .overlay {
   transform: translatey(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #2196f3;
