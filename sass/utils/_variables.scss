@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #212121;
+  --secondary-color: #2196f3;
+  --background-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-variant-alternates: normal;
+  color: var(--primary-color);
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  transition: color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+a:focus {
+  color: var(--secondary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+button {
+  transition: background-color 250ms, color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:focus {
+  color: #ffffff;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
