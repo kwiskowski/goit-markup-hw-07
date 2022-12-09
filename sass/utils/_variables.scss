@@ -15,25 +15,30 @@ a {
   text-decoration: none;
   transition: color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-a:focus {
-  color: var(--secondary-color);
-}
-
-a:hover {
-  color: var(--secondary-color);
+  &:focus {
+    color: var(--secondary-color);
+  }
+  &:hover {
+    color: var(--secondary-color);
+  }
 }
 
 button {
   transition: background-color 250ms, color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus {
+    color: #ffffff;
+    color: #2196f3;
+  }
+  &:hover {
+    color: #ffffff;
+    background-color: #2196f3;
+  }
 }
 
-button:focus {
-  color: #ffffff;
-}
-
-button:hover {
-  color: #ffffff;
-  background-color: #2196f3;
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
 }

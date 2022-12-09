@@ -20,10 +20,9 @@
   cursor: pointer;
   transition: background-color 250ms, color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.filter-button:hover {
-  box-shadow: 0 2px 5px #6b6b6b;
+  &:hover {
+    box-shadow: 0 2px 5px #6b6b6b;
+  }
 }
 
 .cards__list {
@@ -64,18 +63,11 @@
   padding-top: 4px;
 }
 
-.cards--container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
-  padding: 0 15px;
-}
-
 .cards {
   padding-top: 94px;
 }
 
-.cards--wrapper {
+.cards__wrapper {
   padding-bottom: 94px;
 }
 
@@ -85,10 +77,9 @@
   border: 1px solid #eeeeee;
   transition: backround-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.cards__list__item:hover {
-  box-shadow: 1px 4px 6px 0px #00000029;
+  &:hover {
+    box-shadow: 1px 4px 6px 0px #00000029;
+  }
 }
 
 .cards__list__item--overlay-description-box {
@@ -102,13 +93,12 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cards__list__item--overlay-wrapper {
+.cards__item-wrapper {
   position: relative;
   overflow: hidden;
 }
 
-.cards__list__item--overlay-wrapper:hover
-  .cards__list__item--overlay-description-box {
+.cards__item-wrapper:hover .cards__list__item--overlay-description-box {
   transform: translatey(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #2196f3;
