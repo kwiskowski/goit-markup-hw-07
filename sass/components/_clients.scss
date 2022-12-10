@@ -31,7 +31,7 @@
   padding: 0px;
 }
 
-.client__box {
+.clients__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +46,7 @@
   }
 }
 
-.client__icon {
+.clients__icon {
   fill: #afb1b8;
   transition: fill 250ms, backround-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

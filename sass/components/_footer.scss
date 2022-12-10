@@ -31,7 +31,7 @@
   color: #ffffff;
 }
 
-.footer__adress__list {
+.footer__list {
   font-size: 14px;
   font-weight: 400;
   line-height: 146%;
@@ -46,7 +46,7 @@
   padding: 0px;
 }
 
-.footer__adress__list__item {
+.footer__item {
   margin-bottom: 9px;
 }
 
@@ -68,7 +68,7 @@
   margin-left: 70px;
 }
 
-.footer__join__label {
+.footer__label {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 700;
@@ -78,7 +78,7 @@
   color: #ffffff;
 }
 
-.footer__join__list {
+.footer__join-list {
   list-style-position: inside;
   list-style-type: none;
   display: flex;
@@ -90,12 +90,12 @@
   padding: 0px;
 }
 
-.footer__join__list__item {
+.footer__join-item {
   padding-right: 10px;
   padding-top: 20px;
 }
 
-.footer__join__list__item__icon {
+.footer__icon {
   display: flex;
   width: 44px;
   height: 44px;

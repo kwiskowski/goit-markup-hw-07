@@ -1,4 +1,4 @@
-.filter {
+.cards__filter {
   list-style-position: inside;
   list-style-type: none;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.filter__button {
+.cards__button {
   height: 38px;
   background-color: #f5f4fa;
   padding-left: 22px;
@@ -38,7 +38,7 @@
   justify-content: space-between;
 }
 
-.cards__list__item--overlay-title {
+.cards__title {
   font-size: 18px;
   font-weight: 700;
   line-height: 171%;
@@ -50,7 +50,7 @@
   padding-top: 20px;
 }
 
-.cards__list__item--overlay-category {
+.cards__subtitle {
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
@@ -71,7 +71,7 @@
   padding-bottom: 94px;
 }
 
-.cards__list__item {
+.cards__item {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
@@ -82,7 +82,7 @@
   }
 }
 
-.cards__list__item--overlay-description-box {
+.cards__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -98,13 +98,13 @@
   overflow: hidden;
 }
 
-.cards__item-wrapper:hover .cards__list__item--overlay-description-box {
+.cards__item-wrapper:hover .cards__overlay {
   transform: translatey(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #2196f3;
 }
 
-.cards__list__item--overlay-description {
+.cards__description {
   font-family: Roboto;
   font-size: 18px;
   font-weight: 400;

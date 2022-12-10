@@ -24,7 +24,7 @@
   color: var(--secondary-color);
 }
 
-.header__logo--decoration {
+.header__logo-decoration {
   color: #000000;
   margin-right: 47px;
 }
@@ -66,7 +66,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-list__item__phone {
+.contact-list__phone {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
@@ -80,7 +80,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-list__item__icon {
+.contact-list__icon {
   fill: #757575;
   margin-right: 10px;
   transition: fill, color 250ms linear;
